@@ -1,0 +1,32 @@
+@import "./common/colors.scss";
+
+// connen css
+// universal selector *
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: $primary-color;
+}
+.container {
+  margin: 0 40px;
+  // min-height: 100vh;
+}
+
+.loading {
+  color: $font-secondary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 140px);
+}
+
+.loading2 {
+  height: calc(100vh - 220px) !important;
+}
